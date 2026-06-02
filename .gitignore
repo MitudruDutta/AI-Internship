@@ -1,0 +1,37 @@
+# ---- Datasets (not uploaded) ----
+dataset/FRUIT-16K/
+**/FRUIT-16K/
+*.zip
+
+# ---- Problem statement / source docs ----
+*.pdf
+
+# ---- Trained model weights (regenerate by running the notebooks) ----
+*.pth
+*.pt
+*.onnx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+.claude/
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- Chroma vector store (regenerate by running ingest.py) ----
+chroma_db/
+**/chroma_db/
+chroma_db_test/
