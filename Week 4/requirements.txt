@@ -1,0 +1,7 @@
+# Week 4 reuses the Week 3 modules (pubmed / chroma_store / ingest / rag),
+# so it shares their dependencies plus Streamlit.
+streamlit>=1.30
+chromadb>=1.5
+requests>=2.28
+groq>=0.11
+python-dotenv>=1.0
