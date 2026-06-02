@@ -11,6 +11,11 @@ dataset/FRUIT-16K/
 *.pt
 *.onnx
 
+# ---- Secrets / env ----
+.env
+.env.*
+!.env.example
+
 # ---- Python ----
 __pycache__/
 *.py[cod]
